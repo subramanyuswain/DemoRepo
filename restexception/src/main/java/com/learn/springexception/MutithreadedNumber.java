@@ -8,6 +8,7 @@ public class MutithreadedNumber {
 		Thread evenPrinter = new Thread(new Runnable(){
 			@Override
 			public void run() {
+				System.out.println("Entered run method");
 				try {
 					for(int i=0;i<=limit;i++){
 							printer.printEvenNumber();
