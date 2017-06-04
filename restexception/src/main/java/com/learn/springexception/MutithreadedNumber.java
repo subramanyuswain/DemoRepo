@@ -9,6 +9,7 @@ public class MutithreadedNumber {
 			@Override
 			public void run() {
 				System.out.println("Entered run method");
+				System.out.println("Entered");
 				try {
 					for(int i=0;i<=limit;i++){
 							printer.printEvenNumber();
